@@ -16,7 +16,7 @@ $(document).ready(function() {
         $('html , body').animate({
             scrollTop: contacto -100
         } ,500);
-        window.location.href = 'index.html#contacto'; // Cambia 'index.html' por la URL de tu página principal si es diferente
+        window.location.href = 'index.html#contacto';
 
     });
    
