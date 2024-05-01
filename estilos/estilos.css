@@ -317,6 +317,20 @@ footer div a:hover {
     clear: both;
 }
 
+/********Media query para tablets********/
+@media only screen and (max-width: 768px) {
+    .menu .contenedor-menu2 article {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+/**********Media query para móviles************/
+@media only screen and (max-width: 576px) {
+    .menu .contenedor-menu2 article {
+        flex-basis: calc(100% - 20px);
+    }
+}
+
 /*****Información*******/
 .contenido {    
     background-color: #fff;
